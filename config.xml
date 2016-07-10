@@ -1,0 +1,21 @@
+<config>
+
+  <WUndergroundAPIKey>0123456789abcdef</WUndergroundAPIKey>
+  <WUndergroundLocation>VA/Richmond.json</WUndergroundLocation>
+
+  <!-- The number of days ahead to check -->
+  <ForecastDuration>5</ForecastDuration>
+
+  <!-- The maximum dew point that will cause a report to be generated in degrees Fahrenheit -->
+  <DewPointThreshold>60.0</DewPointThreshold>
+
+  <EmailSender>xxx@gmail.com</EmailSender>
+  <!-- Currently, only Gmail recipients are supported per
+       https://support.google.com/a/answer/176600?hl=en -->
+  <EmailRecipients>
+     <Recipient>yyy@gmail.com</Recipient>
+     <Recipient>zzz@gmail.com</Recipient>
+  </EmailRecipients>
+  <EmailSubject>Dewpoints</EmailSubject>
+
+</config>
